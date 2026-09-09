@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" data-page="tracker">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Degree Apprenticeships - Combined Tracker</title>
+<meta name="description" content="Every Level 6 degree apprenticeship tracked across sales, finance and consulting - 23 target employers in one place, auto-updated three times daily.">
+<meta property="og:title" content="Degree Apprenticeship Tracker - all 23 employers">
+<meta property="og:description" content="Every Level 6 degree apprenticeship tracked across sales, finance and consulting - 23 target employers in one place.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sebcaw.github.io/Sales-Tracker/all.html">
+<meta property="og:image" content="https://sebcaw.github.io/Sales-Tracker/assets/og-image.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/tracker.css">
+<script src="assets/theme.js"></script>
+<style>
+  .srcbar{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 6px}
+  .srcpill{font:500 12px/1 var(--sans);padding:7px 11px;border-radius:999px;border:1px solid var(--border);
+           background:var(--panel);color:var(--muted);display:flex;align-items:center;gap:7px}
+  .srcpill .dot{width:7px;height:7px;border-radius:50%;background:var(--grey)}
+  .srcpill.ok .dot{background:var(--green)}
+  .srcpill.bad .dot{background:var(--red)}
+  .srcpill a{color:var(--accent);text-decoration:none}
+  .sectorhead{margin:26px 0 10px;font:600 13px/1 var(--mono);letter-spacing:.08em;
+              text-transform:uppercase;color:var(--faint)}
+  .sectorhead span{color:var(--accent)}
+  #stats .stat{cursor:default}
+  #stats .stat:hover{border-color:var(--border)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Degree Apprenticeship Tracker</h1>
+    <div class="head-right">
+      <div class="updated"><span class="pulse" id="pulse"></span><span id="updatedTxt">Loading</span></div>
+      <div class="theme-toggle" role="group" aria-label="Colour theme">
+        <button data-theme-btn="light" aria-label="Light mode">Light</button>
+        <button data-theme-btn="dark" aria-label="Dark mode">Dark</button>
+      </div>
+      <a class="aboutbtn" href="index.html">About Seb</a>
+    </div>
+  </header>
+  <p class="sub">All 23 target employers in one place &middot; sales, finance and consulting &middot; Level 6 &middot; checked three times daily</p>
+
+  <div class="srcbar" id="srcbar"></div>
+
+  <div class="summary" id="stats"></div>
+
+  <div class="filters">
+    <label>Sector
+      <select id="fSector">
+        <option value="all">All sectors</option>
+        <option value="sales">Sales</option>
+        <option value="finance">Finance</option>
+        <option value="consulting">Consulting</option>
+      </select>
+    </label>
+    <label>Status
+      <select id="fStatus">
+        <option value="all">All</option>
+        <option value="open">Open now</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="sectors"></div>
+
+  <footer class="footer">
+    <p>Combined view. Each sector keeps its own tracker and its own scraper -
+      this page reads all three live.</p>
+  </footer>
+</div>
+
+<script>
+// Three independent trackers, each with its own repo, scraper and data.json.
+// This page reads all three over CORS rather than duplicating the data, so there
+// is still exactly one source of truth per sector.
+// NOTE: the finance repo was renamed to Seb-Cawthorne, so its Pages URL moved.
+// Finance-Tracker now 404s - do not point at it.
+const SOURCES = [
+  { key:'sales',      label:'Sales',      url:'https://sebcaw.github.io/Sales-Tracker/data.json',
+    site:'https://sebcaw.github.io/Sales-Tracker/tracker.html' },
+  { key:'finance',    label:'Finance',    url:'https://sebcaw.github.io/Seb-Cawthorne/data.json',
+    site:'https://sebcaw.github.io/Seb-Cawthorne/tracker.html' },
+  { key:'consulting', label:'Consulting', url:'https://sebcaw.github.io/Consulting-Tracker/data.json',
+    site:'https://sebcaw.github.io/Consulting-Tracker/tracker.html' }
+];
+
+const MN = ['','January','February','March','April','May','June','July','August','September','October','November','December'];
+const state = { sectors:{}, failed:[] };
+
+function daysUntilMonth(cyc){
+  if(!cyc || !cyc.length) return null;
+  const c = cyc.slice().sort((a,b)=>b.year-a.year)[0];
+  let m = c.openedMonth, day = 1;
+  if(c.openedDate){ const d=new Date(c.openedDate); m=d.getMonth()+1; day=d.getDate(); }
+  const now = new Date();
+  let year = now.getFullYear();
+  if(now.getMonth()+1 > m) year++;
+  const target = new Date(year, m-1, day);
+  return { month:m, days:Math.ceil((target-now)/86400000), confirmed:c.confidence==='confirmed', rolling:!!c.rolling };
+}
+
+function statusPill(s){
+  if(s==='open') return '<span class="pill open">Open</span>';
+  if(s==='closing_soon') return '<span class="pill soon">Closing soon</span>';
+  if(s==='closed') return '<span class="pill closed">Closed</span>';
+  return '<span class="pill idle">Not yet open</span>';
+}
+
+function render(){
+  const wantSector = document.getElementById('fSector').value;
+  const wantStatus = document.getElementById('fStatus').value;
+  const host = document.getElementById('sectors');
+  host.innerHTML = '';
+
+  let shownCos = 0, shownProgs = 0, openProgs = 0;
+
+  SOURCES.forEach(src => {
+    const data = state.sectors[src.key];
+    if(!data) return;
+    if(wantSector !== 'all' && wantSector !== src.key) return;
+
+    const cos = data.companies.map(co => {
+      let progs = co.programs || [];
+      if(wantStatus === 'open') progs = progs.filter(p => p.status === 'open' || p.status === 'closing_soon');
+      return { co, progs };
+    }).filter(x => x.progs.length || wantStatus !== 'open');
+
+    if(!cos.length) return;
+
+    const head = document.createElement('div');
+    head.className = 'sectorhead';
+    head.innerHTML = src.label + ' <span>' + cos.length + ' employers</span>';
+    host.appendChild(head);
+
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+    cos.forEach(({co, progs}) => {
+      shownCos++; shownProgs += progs.length;
+      openProgs += progs.filter(p=>p.status==='open'||p.status==='closing_soon').length;
+      const pr = daysUntilMonth(co.historicalCycles);
+      const predict = pr
+        ? '<div class="predict-line">' + (pr.confirmed ? 'Opens' : 'Typically opens ~') + ' ' + MN[pr.month]
+          + (pr.days>=0 ? ' &middot; in ~' + pr.days + ' days' : '')
+          + (pr.rolling ? ' &middot; rolling, closes when full' : '')
+          + (pr.confirmed ? '' : ' (est.)') + '</div>'
+        : '';
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML =
+        '<div class="cardhead"><h3>' + co.name + '</h3>'
+        + '<span class="sectortag">' + src.label + '</span></div>'
+        + predict
+        + '<div class="links"><a href="' + (co.careerUrl||'#') + '" target="_blank" rel="noopener">Careers &#8599;</a>'
+        + ' <a href="' + src.site + '" target="_blank" rel="noopener">Sector tracker &#8599;</a></div>'
+        + progs.map(p =>
+            '<div class="program"><div class="pname">' + p.name
+            + (p.nameConfidence === 'unconfirmed' ? ' <span class="tag">unverified</span>' : '')
+            + '</div><div class="pmeta">' + (p.standard||'') + (p.location ? ' &middot; ' + p.location : '')
+            + '</div>' + statusPill(p.status) + '</div>'
+          ).join('');
+      grid.appendChild(card);
+    });
+    host.appendChild(grid);
+  });
+
+  document.getElementById('stats').innerHTML =
+      '<div class="stat"><div class="n">' + openProgs + '</div><div class="l">Open now</div></div>'
+    + '<div class="stat"><div class="n">' + shownCos + '</div><div class="l">Employers shown</div></div>'
+    + '<div class="stat"><div class="n">' + shownProgs + '</div><div class="l">Programmes shown</div></div>';
+
+  if(!host.children.length) host.innerHTML = '<p class="sub">Nothing matches those filters.</p>';
+}
+
+function renderSources(){
+  document.getElementById('srcbar').innerHTML = SOURCES.map(s => {
+    const d = state.sectors[s.key];
+    const cls = d ? 'ok' : 'bad';
+    const n = d ? d.companies.length + ' employers' : 'unavailable';
+    return '<span class="srcpill ' + cls + '"><span class="dot"></span>'
+      + '<a href="' + s.site + '" target="_blank" rel="noopener">' + s.label + '</a> ' + n + '</span>';
+  }).join('');
+}
+
+function freshness(){
+  const times = Object.values(state.sectors).map(d => d.meta && d.meta.lastUpdated).filter(Boolean).sort();
+  const el = document.getElementById('updatedTxt');
+  if(!times.length){ el.textContent = 'No data'; return; }
+  const oldest = new Date(times[0]);
+  const hrs = Math.round((Date.now() - oldest.getTime())/3600000);
+  el.textContent = hrs < 1 ? 'Updated just now' : 'Updated ' + hrs + 'h ago';
+  const p = document.getElementById('pulse');
+  if(p && hrs > 24) p.classList.add('stale');
+}
+
+Promise.all(SOURCES.map(s =>
+  fetch(s.url, {cache:'no-store'})
+    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(j => { state.sectors[s.key] = j; })
+    .catch(e => { state.failed.push(s.key + ': ' + e.message); })
+)).then(() => {
+  renderSources(); freshness(); render();
+  ['fSector','fStatus'].forEach(id =>
+    document.getElementById(id).addEventListener('change', render));
+});
+</script>
+</body>
+</html>
