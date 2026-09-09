@@ -157,6 +157,44 @@ function CustomerFacing-From([string]$title, [string]$course) {
 # apprenticeships nationally and zero matching "sales". This checks each employer's
 # own careers page for a change in apprenticeship signal, so an opening is caught even
 # when GOV.UK never lists it. Cheap, no browser, no Claude credits.
+# Workday-hosted vacancies.
+#
+# Barclays posted 14 apprenticeships on 9 Sept 2026 and this scraper saw none of
+# them: the page it reads is a marketing page, while the vacancies live in
+# Workday behind JavaScript. The tracker said "0 open" while the role Seb went on
+# to apply for was live. That is the worst possible failure for a tracker.
+#
+# Workday exposes a plain JSON endpoint that needs no browser:
+#   POST /wday/cxs/<tenant>/<site>/jobs  {"limit":20,"offset":0,"searchText":"..."}
+# Configure per company in data.json as:
+#   "ats": { "type":"workday", "host":"...", "tenant":"...", "site":"...", "search":"..." }
+function Get-WorkdayRoles($co) {
+  if (-not ($co.PSObject.Properties.Name -contains 'ats') -or -not $co.ats) { return $null }
+  if ($co.ats.type -ne 'workday') { return $null }
+  $api = "https://" + $co.ats.host + "/wday/cxs/" + $co.ats.tenant + "/" + $co.ats.site + "/jobs"
+  $body = @{ appliedFacets = @{}; limit = 20; offset = 0; searchText = $co.ats.search } | ConvertTo-Json -Depth 4
+  try {
+    $r = Invoke-RestMethod -Uri $api -Method Post -ContentType 'application/json' -Body $body -TimeoutSec 25 -Headers @{ 'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36' }
+  } catch {
+    Write-Host ("Workday check failed for " + $co.name + ": " + $_)
+    return $null
+  }
+  $out = @()
+  foreach ($p in $r.jobPostings) {
+    # Degree-level only. "Higher" and plain apprenticeships are lower level, and
+    # a title without "Degree" is a different, lower-level scheme - at Barclays
+    # the two Manchester Business Banking roles differ by exactly that word.
+    if ($p.title -notmatch '(?i)degree') { continue }
+    $out += [pscustomobject]@{
+      title    = $p.title
+      location = $p.locationsText
+      postedOn = $p.postedOn
+      url      = "https://" + $co.ats.host + "/" + $co.ats.site + $p.externalPath
+    }
+  }
+  return ,$out
+}
+
 function Check-EmployerSite($co) {
   $result = [pscustomobject]@{
     checkedAt = (Get-Date).ToString('yyyy-MM-ddTHH:mm:ssZ')
@@ -219,6 +257,39 @@ foreach ($s in $sectorFiles.Keys) {
       $siteSignals += [pscustomobject]@{ company = $co.name; url = $co.careerUrl; sector = $s }
       Write-Host ("Careers-site signal: " + $co.name + " now reads as open - " + $co.careerUrl)
     }
+    # Workday roles are real, dated vacancies, so they take priority over the
+    # seeded programme list. When they are present the card shows what is
+    # actually open rather than a curated guess.
+    $wd = Get-WorkdayRoles $co
+    if ($wd -and $wd.Count -gt 0) {
+      $wdProgs = @()
+      foreach ($w in $wd) {
+        $wdProgs += [pscustomobject]@{
+          id             = ($co.id + '_wd_' + ([regex]::Replace($w.title.ToLower(), '[^a-z0-9]+', '_')).Trim('_'))
+          name           = $w.title
+          standard       = 'Level 6'
+          location       = $w.location
+          salary         = $null
+          duration       = $null
+          customerFacing = 'core'
+          nameConfidence = 'official'
+          sourceUrl      = $w.url
+          status         = 'open'
+          closingDate    = $null
+          applyUrl       = $w.url
+          govVacancyId   = $null
+          firstSeen      = (Get-Date).ToString('yyyy-MM-dd')
+          lastSeen       = (Get-Date).ToString('yyyy-MM-dd')
+        }
+      }
+      $co.programs = $wdProgs
+      $coreLive += $wdProgs.Count
+      Write-Host ("Workday: " + $co.name + " has " + $wdProgs.Count + " live degree apprenticeships")
+      foreach ($w in $wd) {
+        $liveItems += [pscustomobject]@{ id = $w.url; company = $co.name; title = $w.title; sector = $s; close = $null }
+      }
+    }
+
     $html = Fetch-Html $co.govSearchUrl
     if ($null -eq $html) { $errors++; continue }
     $matched = @()

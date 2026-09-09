@@ -146,6 +146,13 @@
         "mentions": 11,
         "openSignal": false,
         "note": ""
+      },
+      "ats": {
+        "type": "workday",
+        "host": "barclays.wd3.myworkdayjobs.com",
+        "tenant": "barclays",
+        "site": "External_Career_Site_Barclays",
+        "search": "2027 Apprenticeship"
       }
     },
     {
