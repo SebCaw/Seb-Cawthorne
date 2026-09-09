@@ -214,6 +214,18 @@ function Get-WorkdayRoles($co) {
       url      = "https://" + $co.ats.host + "/" + $co.ats.site + $p.externalPath
     }
   }
+  # One application per company. Employers post the same programme in several
+  # cities - Barclays lists Business Banking in Manchester, Northampton and
+  # London - and showing all three implies three applications. Keep only the
+  # preferred location when one is set and something matches it.
+  if ($co.ats.PSObject.Properties.Name -contains 'preferLocation' -and $co.ats.preferLocation) {
+    $preferred = @($out | Where-Object { $_.location -match $co.ats.preferLocation })
+    if ($preferred.Count -gt 0) {
+      $dropped = $out.Count - $preferred.Count
+      $out = $preferred
+      if ($dropped -gt 0) { Write-Host ("  " + $co.name + ": kept preferred location, dropped " + $dropped + " other site(s)") }
+    }
+  }
   $diag.kept = $out.Count
   $co | Add-Member -NotePropertyName atsCheck -NotePropertyValue $diag -Force
   return ,$out
