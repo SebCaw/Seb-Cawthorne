@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-09T12:47:46Z",
+    "lastUpdated": "2026-09-09T22:06:54Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -78,7 +78,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:28Z",
+        "checkedAt": "2026-09-09T22:06:40Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 2,
@@ -122,37 +122,139 @@
       ],
       "programs": [
         {
-          "id": "barclays_ukcb",
-          "name": "UK Corporate Banking Higher Apprenticeship Programme",
-          "standard": "Higher Apprenticeship",
-          "location": "London / Manchester",
+          "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
+          "name": "2027 Business Banking Degree Apprenticeship Programme Manchester",
+          "standard": "Level 6",
+          "location": "Manchester, 4 Piccadilly Place",
           "salary": null,
           "duration": null,
           "customerFacing": "core",
           "nameConfidence": "official",
-          "sourceUrl": "https://search.jobs.barclays/apprenticeship-programmes",
-          "status": "not_open",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
+          "status": "open",
           "closingDate": null,
-          "applyUrl": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "govVacancyId": null,
-          "firstSeen": null,
-          "lastSeen": null
+          "firstSeen": "2026-09-09",
+          "lastSeen": "2026-09-09"
+        },
+        {
+          "id": "barclays_wd_2027_technology_developer_degree_apprenticeship_programme_knutsford",
+          "name": "2027 Technology Developer Degree Apprenticeship Programme Knutsford",
+          "standard": "Level 6",
+          "location": "Knutsford, Radbroke Hall",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Knutsford_JR-0000129443",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Knutsford_JR-0000129443",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-09",
+          "lastSeen": "2026-09-09"
+        },
+        {
+          "id": "barclays_wd_2027_technology_analyst_degree_apprenticeship_programme_knutsford",
+          "name": "2027 Technology Analyst Degree Apprenticeship Programme Knutsford",
+          "standard": "Level 6",
+          "location": "Knutsford, Radbroke Hall",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Analyst-Degree-Apprenticeship-Programme-Knutsford_JR-0000129131",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Analyst-Degree-Apprenticeship-Programme-Knutsford_JR-0000129131",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-09",
+          "lastSeen": "2026-09-09"
+        },
+        {
+          "id": "barclays_wd_2027_technology_developer_degree_apprenticeship_programme_northampton",
+          "name": "2027 Technology Developer Degree Apprenticeship Programme Northampton",
+          "standard": "Level 6",
+          "location": "Northampton, Barclays Campus, Pavilion Drive",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Northampton_JR-0000129431",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Northampton_JR-0000129431",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-09",
+          "lastSeen": "2026-09-09"
+        },
+        {
+          "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_northampton",
+          "name": "2027 Business Banking Degree Apprenticeship Programme Northampton",
+          "standard": "Level 6",
+          "location": "Northampton, Barclays Campus, Pavilion Drive",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-09",
+          "lastSeen": "2026-09-09"
+        },
+        {
+          "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_london",
+          "name": "2027 Business Banking Degree Apprenticeship Programme London",
+          "standard": "Level 6",
+          "location": "Canary Wharf, 1 Churchill Place",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-London_JR-0000129411",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-London_JR-0000129411",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-09",
+          "lastSeen": "2026-09-09"
+        },
+        {
+          "id": "barclays_wd_2027_operations_analyst_degree_apprenticeship_programme_london",
+          "name": "2027 Operations Analyst Degree Apprenticeship Programme London",
+          "standard": "Level 6",
+          "location": "Canary Wharf, 1 Churchill Place",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Operations-Analyst-Degree-Apprenticeship-Programme-London_JR-0000129617",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Operations-Analyst-Degree-Apprenticeship-Programme-London_JR-0000129617",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-09",
+          "lastSeen": "2026-09-09"
         }
       ],
-      "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:31Z",
-        "reachable": true,
-        "httpStatus": 200,
-        "mentions": 11,
-        "openSignal": false,
-        "note": ""
-      },
       "ats": {
         "type": "workday",
         "host": "barclays.wd3.myworkdayjobs.com",
         "tenant": "barclays",
         "site": "External_Career_Site_Barclays",
         "search": "2027 Apprenticeship"
+      },
+      "siteCheck": {
+        "checkedAt": "2026-09-09T22:06:41Z",
+        "reachable": true,
+        "httpStatus": 200,
+        "mentions": 11,
+        "openSignal": false,
+        "note": ""
       }
     },
     {
@@ -226,7 +328,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:32Z",
+        "checkedAt": "2026-09-09T22:06:42Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -323,7 +425,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:33Z",
+        "checkedAt": "2026-09-09T22:06:43Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -385,7 +487,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:34Z",
+        "checkedAt": "2026-09-09T22:06:44Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -447,7 +549,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:35Z",
+        "checkedAt": "2026-09-09T22:06:45Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -509,7 +611,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:36Z",
+        "checkedAt": "2026-09-09T22:06:45Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -571,7 +673,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:37Z",
+        "checkedAt": "2026-09-09T22:06:46Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -633,7 +735,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:38Z",
+        "checkedAt": "2026-09-09T22:06:47Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 48,
@@ -712,7 +814,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T12:47:39Z",
+        "checkedAt": "2026-09-09T22:06:48Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
