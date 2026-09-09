@@ -179,8 +179,7 @@
         "tenant": "barclays",
         "site": "External_Career_Site_Barclays",
         "search": "2027 Apprenticeship",
-        "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien",
-        "preferLocation": "(?i)manchester"
+        "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
         "checkedAt": "2026-09-09T22:17:44Z",
