@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-09T22:06:54Z",
+    "lastUpdated": "2026-09-09T22:18:00Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -78,7 +78,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:40Z",
+        "checkedAt": "2026-09-09T22:17:42Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 2,
@@ -139,57 +139,6 @@
           "lastSeen": "2026-09-09"
         },
         {
-          "id": "barclays_wd_2027_technology_developer_degree_apprenticeship_programme_knutsford",
-          "name": "2027 Technology Developer Degree Apprenticeship Programme Knutsford",
-          "standard": "Level 6",
-          "location": "Knutsford, Radbroke Hall",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Knutsford_JR-0000129443",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Knutsford_JR-0000129443",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-09",
-          "lastSeen": "2026-09-09"
-        },
-        {
-          "id": "barclays_wd_2027_technology_analyst_degree_apprenticeship_programme_knutsford",
-          "name": "2027 Technology Analyst Degree Apprenticeship Programme Knutsford",
-          "standard": "Level 6",
-          "location": "Knutsford, Radbroke Hall",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Analyst-Degree-Apprenticeship-Programme-Knutsford_JR-0000129131",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Analyst-Degree-Apprenticeship-Programme-Knutsford_JR-0000129131",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-09",
-          "lastSeen": "2026-09-09"
-        },
-        {
-          "id": "barclays_wd_2027_technology_developer_degree_apprenticeship_programme_northampton",
-          "name": "2027 Technology Developer Degree Apprenticeship Programme Northampton",
-          "standard": "Level 6",
-          "location": "Northampton, Barclays Campus, Pavilion Drive",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Northampton_JR-0000129431",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Northampton_JR-0000129431",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-09",
-          "lastSeen": "2026-09-09"
-        },
-        {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_northampton",
           "name": "2027 Business Banking Degree Apprenticeship Programme Northampton",
           "standard": "Level 6",
@@ -222,23 +171,6 @@
           "govVacancyId": null,
           "firstSeen": "2026-09-09",
           "lastSeen": "2026-09-09"
-        },
-        {
-          "id": "barclays_wd_2027_operations_analyst_degree_apprenticeship_programme_london",
-          "name": "2027 Operations Analyst Degree Apprenticeship Programme London",
-          "standard": "Level 6",
-          "location": "Canary Wharf, 1 Churchill Place",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Operations-Analyst-Degree-Apprenticeship-Programme-London_JR-0000129617",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Operations-Analyst-Degree-Apprenticeship-Programme-London_JR-0000129617",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-09",
-          "lastSeen": "2026-09-09"
         }
       ],
       "ats": {
@@ -250,12 +182,19 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:41Z",
+        "checkedAt": "2026-09-09T22:17:44Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 11,
         "openSignal": false,
         "note": ""
+      },
+      "atsCheck": {
+        "checkedAt": "2026-09-09T22:17:44Z",
+        "ok": true,
+        "total": 14,
+        "kept": 3,
+        "error": ""
       }
     },
     {
@@ -329,7 +268,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:42Z",
+        "checkedAt": "2026-09-09T22:17:46Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -426,7 +365,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:43Z",
+        "checkedAt": "2026-09-09T22:17:47Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -488,7 +427,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:44Z",
+        "checkedAt": "2026-09-09T22:17:48Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -550,7 +489,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:45Z",
+        "checkedAt": "2026-09-09T22:17:48Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -612,7 +551,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:45Z",
+        "checkedAt": "2026-09-09T22:17:49Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -674,7 +613,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:46Z",
+        "checkedAt": "2026-09-09T22:17:50Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -736,7 +675,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:47Z",
+        "checkedAt": "2026-09-09T22:17:51Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 48,
@@ -815,7 +754,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-09T22:06:48Z",
+        "checkedAt": "2026-09-09T22:17:53Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
