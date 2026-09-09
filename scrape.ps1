@@ -11,7 +11,14 @@ $root = $PSScriptRoot
 # "notifications work but nothing is new" from "notifications are broken" - which
 # matters most right before the September season opens.
 if ($env:TEST_NOTIFICATION -eq 'true') {
-  $testMsg = "Test notification from the apprenticeship tracker." + [char]10 + [char]10 + "If you can read this, notifications are wired up correctly." + [char]10 + "Sent: " + (Get-Date).ToString('yyyy-MM-dd HH:mm:ss') + " UTC"
+  # ALERT_TEXT (workflow_dispatch input) sends that text instead of the dummy
+  # message - use it to push a real alert by hand when something opens that the
+  # scraper cannot see, e.g. a Workday-hosted vacancy behind JavaScript.
+  if ($env:ALERT_TEXT) {
+    $testMsg = $env:ALERT_TEXT
+  } else {
+    $testMsg = "Test notification from the apprenticeship tracker." + [char]10 + [char]10 + "If you can read this, notifications are wired up correctly." + [char]10 + "Sent: " + (Get-Date).ToString('yyyy-MM-dd HH:mm:ss') + " UTC"
+  }
   $sentOk = $false
   if ($env:TELEGRAM_BOT_TOKEN -and $env:TELEGRAM_CHAT_ID) {
     try {
