@@ -173,9 +173,21 @@ function Get-WorkdayRoles($co) {
   if ($co.ats.type -ne 'workday') { return $null }
   $api = "https://" + $co.ats.host + "/wday/cxs/" + $co.ats.tenant + "/" + $co.ats.site + "/jobs"
   $body = @{ appliedFacets = @{}; limit = 20; offset = 0; searchText = $co.ats.search } | ConvertTo-Json -Depth 4
+  # Record the outcome on the company so a failure is visible in data.json.
+  # GitHub Actions runs from a datacentre IP and Workday sits behind Akamai, so
+  # a call that works from a home connection can still be blocked here - and the
+  # Actions log is awkward to read after the fact.
+  $diag = [pscustomobject]@{
+    checkedAt = (Get-Date).ToString('yyyy-MM-ddTHH:mm:ssZ')
+    ok = $false; total = 0; kept = 0; error = ''
+  }
   try {
-    $r = Invoke-RestMethod -Uri $api -Method Post -ContentType 'application/json' -Body $body -TimeoutSec 25 -Headers @{ 'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36' }
+    $r = Invoke-RestMethod -Uri $api -Method Post -ContentType 'application/json' -Body $body -TimeoutSec 25 -Headers @{ 'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36'; 'Accept' = 'application/json' }
+    $diag.ok = $true
+    $diag.total = [int]$r.total
   } catch {
+    $diag.error = ($_.Exception.Message)
+    $co | Add-Member -NotePropertyName atsCheck -NotePropertyValue $diag -Force
     Write-Host ("Workday check failed for " + $co.name + ": " + $_)
     return $null
   }
@@ -192,6 +204,8 @@ function Get-WorkdayRoles($co) {
       url      = "https://" + $co.ats.host + "/" + $co.ats.site + $p.externalPath
     }
   }
+  $diag.kept = $out.Count
+  $co | Add-Member -NotePropertyName atsCheck -NotePropertyValue $diag -Force
   return ,$out
 }
 
