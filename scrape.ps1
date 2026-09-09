@@ -197,6 +197,16 @@ function Get-WorkdayRoles($co) {
     # a title without "Degree" is a different, lower-level scheme - at Barclays
     # the two Manchester Business Banking roles differ by exactly that word.
     if ($p.title -notmatch '(?i)degree') { continue }
+    # Optional per-company patterns so the tracker shows only the roles Seb would
+    # actually apply for. Without this Barclays returns Technology Developer,
+    # Technology Analyst and an Operations Analyst that is really a Data Scientist
+    # qualification - all degree-level, none of them what he wants.
+    if ($co.ats.PSObject.Properties.Name -contains 'exclude' -and $co.ats.exclude) {
+      if ($p.title -match $co.ats.exclude) { continue }
+    }
+    if ($co.ats.PSObject.Properties.Name -contains 'include' -and $co.ats.include) {
+      if ($p.title -notmatch $co.ats.include) { continue }
+    }
     $out += [pscustomobject]@{
       title    = $p.title
       location = $p.locationsText
