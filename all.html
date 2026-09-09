@@ -27,6 +27,8 @@
   .sectorhead{margin:26px 0 10px;font:600 13px/1 var(--mono);letter-spacing:.08em;
               text-transform:uppercase;color:var(--faint)}
   .sectorhead span{color:var(--accent)}
+  .sub.note{margin-top:-6px;font-size:12px;color:var(--faint)}
+  .program.empty{color:var(--faint);font-size:12.5px;font-style:italic}
   #stats .stat{cursor:default}
   #stats .stat:hover{border-color:var(--border)}
 </style>
@@ -45,6 +47,7 @@
     </div>
   </header>
   <p class="sub">All 23 target employers in one place &middot; sales, finance and consulting &middot; Level 6 &middot; checked three times daily</p>
+  <p class="sub note">Showing customer-facing roles only. Back-office programmes are hidden - each sector tracker lists them in full.</p>
 
   <div class="srcbar" id="srcbar"></div>
 
@@ -126,7 +129,7 @@ function render(){
     if(wantSector !== 'all' && wantSector !== src.key) return;
 
     const cos = data.companies.map(co => {
-      let progs = co.programs || [];
+      let progs = (co.programs || []).filter(p => p.customerFacing === 'core' || p.customerFacing === 'client');
       if(wantStatus === 'open') progs = progs.filter(p => p.status === 'open' || p.status === 'closing_soon');
       return { co, progs };
     }).filter(x => x.progs.length || wantStatus !== 'open');
@@ -158,6 +161,7 @@ function render(){
         + predict
         + '<div class="links"><a href="' + (co.careerUrl||'#') + '" target="_blank" rel="noopener">Careers &#8599;</a>'
         + ' <a href="' + src.site + '" target="_blank" rel="noopener">Sector tracker &#8599;</a></div>'
+        + (progs.length ? '' : '<div class="program empty">No customer-facing programme listed &mdash; this employer only runs operations or finance routes.</div>')
         + progs.map(p =>
             '<div class="program"><div class="pname">' + p.name
             + (p.nameConfidence === 'unconfirmed' ? ' <span class="tag">unverified</span>' : '')
