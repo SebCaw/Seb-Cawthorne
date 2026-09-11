@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-10T12:45:38Z",
+    "lastUpdated": "2026-09-11T12:40:24Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -78,7 +78,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:26Z",
+        "checkedAt": "2026-09-11T12:40:06Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 2,
@@ -135,8 +135,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
           "govVacancyId": null,
-          "firstSeen": "2026-09-10",
-          "lastSeen": "2026-09-10"
+          "firstSeen": "2026-09-11",
+          "lastSeen": "2026-09-11"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
@@ -152,8 +152,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "govVacancyId": null,
-          "firstSeen": "2026-09-10",
-          "lastSeen": "2026-09-10"
+          "firstSeen": "2026-09-11",
+          "lastSeen": "2026-09-11"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_london",
@@ -169,8 +169,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-London_JR-0000129411",
           "govVacancyId": null,
-          "firstSeen": "2026-09-10",
-          "lastSeen": "2026-09-10"
+          "firstSeen": "2026-09-11",
+          "lastSeen": "2026-09-11"
         }
       ],
       "ats": {
@@ -182,17 +182,17 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:27Z",
+        "checkedAt": "2026-09-11T12:40:08Z",
         "reachable": true,
         "httpStatus": 200,
-        "mentions": 11,
+        "mentions": 13,
         "openSignal": false,
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-09-10T12:45:27Z",
+        "checkedAt": "2026-09-11T12:40:08Z",
         "ok": true,
-        "total": 15,
+        "total": 16,
         "kept": 3,
         "error": ""
       }
@@ -268,7 +268,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:28Z",
+        "checkedAt": "2026-09-11T12:40:10Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -365,7 +365,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:29Z",
+        "checkedAt": "2026-09-11T12:40:10Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -427,7 +427,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:30Z",
+        "checkedAt": "2026-09-11T12:40:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -489,7 +489,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:30Z",
+        "checkedAt": "2026-09-11T12:40:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -551,7 +551,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:31Z",
+        "checkedAt": "2026-09-11T12:40:13Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -613,7 +613,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:32Z",
+        "checkedAt": "2026-09-11T12:40:15Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -675,7 +675,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:32Z",
+        "checkedAt": "2026-09-11T12:40:15Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 30,
@@ -754,7 +754,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-10T12:45:33Z",
+        "checkedAt": "2026-09-11T12:40:17Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
