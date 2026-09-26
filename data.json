@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-20T12:55:06Z",
+    "lastUpdated": "2026-09-26T12:44:23Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -78,7 +78,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:46Z",
+        "checkedAt": "2026-09-26T12:44:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 2,
@@ -122,89 +122,21 @@
       ],
       "programs": [
         {
-          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_birmingham",
-          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 Birmingham",
+          "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
+          "name": "2027 Business Banking Degree Apprenticeship Programme Manchester",
           "standard": "Level 6",
-          "location": "Birmingham, One Snow Hill",
+          "location": "Manchester, 4 Piccadilly Place",
           "salary": null,
           "duration": null,
           "customerFacing": "core",
           "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "status": "open",
           "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "govVacancyId": null,
-          "firstSeen": "2026-09-20",
-          "lastSeen": "2026-09-20"
-        },
-        {
-          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_london",
-          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 London",
-          "standard": "Level 6",
-          "location": "Canary Wharf, 1 Churchill Place",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-20",
-          "lastSeen": "2026-09-20"
-        },
-        {
-          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_leeds",
-          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 Leeds",
-          "standard": "Level 6",
-          "location": "Leeds, Park Row",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-20",
-          "lastSeen": "2026-09-20"
-        },
-        {
-          "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_northampton",
-          "name": "Global Transaction Banking Degree Apprenticeship Programme 2027 Northampton",
-          "standard": "Level 6",
-          "location": "Northampton, Barclays Campus, Pavilion Drive",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-20",
-          "lastSeen": "2026-09-20"
-        },
-        {
-          "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_london",
-          "name": "Global Transaction Banking Degree Apprenticeship Programme 2027 London",
-          "standard": "Level 6",
-          "location": "Canary Wharf, 1 Churchill Place",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-20",
-          "lastSeen": "2026-09-20"
+          "firstSeen": "2026-09-26",
+          "lastSeen": "2026-09-26"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_northampton",
@@ -220,25 +152,93 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
           "govVacancyId": null,
-          "firstSeen": "2026-09-20",
-          "lastSeen": "2026-09-20"
+          "firstSeen": "2026-09-26",
+          "lastSeen": "2026-09-26"
         },
         {
-          "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
-          "name": "2027 Business Banking Degree Apprenticeship Programme Manchester",
+          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_birmingham",
+          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 Birmingham",
           "standard": "Level 6",
-          "location": "Manchester, 4 Piccadilly Place",
+          "location": "Birmingham, One Snow Hill",
           "salary": null,
           "duration": null,
           "customerFacing": "core",
           "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
           "status": "open",
           "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
           "govVacancyId": null,
-          "firstSeen": "2026-09-20",
-          "lastSeen": "2026-09-20"
+          "firstSeen": "2026-09-26",
+          "lastSeen": "2026-09-26"
+        },
+        {
+          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_london",
+          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 London",
+          "standard": "Level 6",
+          "location": "Canary Wharf, 1 Churchill Place",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-26",
+          "lastSeen": "2026-09-26"
+        },
+        {
+          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_leeds",
+          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 Leeds",
+          "standard": "Level 6",
+          "location": "Leeds, Park Row",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-26",
+          "lastSeen": "2026-09-26"
+        },
+        {
+          "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_northampton",
+          "name": "Global Transaction Banking Degree Apprenticeship Programme 2027 Northampton",
+          "standard": "Level 6",
+          "location": "Northampton, Barclays Campus, Pavilion Drive",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-26",
+          "lastSeen": "2026-09-26"
+        },
+        {
+          "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_london",
+          "name": "Global Transaction Banking Degree Apprenticeship Programme 2027 London",
+          "standard": "Level 6",
+          "location": "Canary Wharf, 1 Churchill Place",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-26",
+          "lastSeen": "2026-09-26"
         }
       ],
       "ats": {
@@ -250,17 +250,17 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:50Z",
+        "checkedAt": "2026-09-26T12:44:10Z",
         "reachable": true,
         "httpStatus": 200,
-        "mentions": 15,
+        "mentions": 11,
         "openSignal": false,
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-09-20T12:54:51Z",
+        "checkedAt": "2026-09-26T12:44:10Z",
         "ok": true,
-        "total": 22,
+        "total": 18,
         "kept": 7,
         "error": ""
       }
@@ -336,7 +336,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:52Z",
+        "checkedAt": "2026-09-26T12:44:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -433,7 +433,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:53Z",
+        "checkedAt": "2026-09-26T12:44:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -495,7 +495,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:54Z",
+        "checkedAt": "2026-09-26T12:44:13Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -557,7 +557,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:55Z",
+        "checkedAt": "2026-09-26T12:44:14Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -619,7 +619,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:56Z",
+        "checkedAt": "2026-09-26T12:44:14Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -681,7 +681,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:57Z",
+        "checkedAt": "2026-09-26T12:44:15Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -743,7 +743,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:58Z",
+        "checkedAt": "2026-09-26T12:44:16Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 30,
@@ -822,7 +822,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-20T12:54:59Z",
+        "checkedAt": "2026-09-26T12:44:18Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
