@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-26T12:44:23Z",
+    "lastUpdated": "2026-09-29T23:27:19Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -156,10 +156,10 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:08Z",
+        "checkedAt": "2026-09-29T23:27:02Z",
         "reachable": true,
         "httpStatus": 200,
-        "mentions": 2,
+        "mentions": 42,
         "openSignal": false,
         "note": ""
       }
@@ -200,6 +200,23 @@
       ],
       "programs": [
         {
+          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_belfast",
+          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 Belfast",
+          "standard": "Level 6",
+          "location": "Belfast, Bedford Street",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Belfast-Bedford-Street/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Belfast_JR-0000131878",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Belfast-Bedford-Street/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Belfast_JR-0000131878",
+          "govVacancyId": null,
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
+        },
+        {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
           "name": "2027 Business Banking Degree Apprenticeship Programme Manchester",
           "standard": "Level 6",
@@ -213,8 +230,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "govVacancyId": null,
-          "firstSeen": "2026-09-26",
-          "lastSeen": "2026-09-26"
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_northampton",
@@ -230,8 +247,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
           "govVacancyId": null,
-          "firstSeen": "2026-09-26",
-          "lastSeen": "2026-09-26"
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_birmingham",
@@ -247,8 +264,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
           "govVacancyId": null,
-          "firstSeen": "2026-09-26",
-          "lastSeen": "2026-09-26"
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_london",
@@ -264,8 +281,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
           "govVacancyId": null,
-          "firstSeen": "2026-09-26",
-          "lastSeen": "2026-09-26"
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_leeds",
@@ -281,8 +298,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
           "govVacancyId": null,
-          "firstSeen": "2026-09-26",
-          "lastSeen": "2026-09-26"
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_northampton",
@@ -298,8 +315,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
           "govVacancyId": null,
-          "firstSeen": "2026-09-26",
-          "lastSeen": "2026-09-26"
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_london",
@@ -315,8 +332,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
           "govVacancyId": null,
-          "firstSeen": "2026-09-26",
-          "lastSeen": "2026-09-26"
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29"
         }
       ],
       "ats": {
@@ -328,7 +345,7 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:10Z",
+        "checkedAt": "2026-09-29T23:27:03Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 11,
@@ -336,10 +353,10 @@
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-09-26T12:44:10Z",
+        "checkedAt": "2026-09-29T23:27:04Z",
         "ok": true,
-        "total": 18,
-        "kept": 7,
+        "total": 19,
+        "kept": 8,
         "error": ""
       }
     },
@@ -414,7 +431,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:12Z",
+        "checkedAt": "2026-09-29T23:27:06Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -511,7 +528,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:12Z",
+        "checkedAt": "2026-09-29T23:27:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -573,7 +590,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:13Z",
+        "checkedAt": "2026-09-29T23:27:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -635,7 +652,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:14Z",
+        "checkedAt": "2026-09-29T23:27:09Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -697,7 +714,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:14Z",
+        "checkedAt": "2026-09-29T23:27:10Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -759,7 +776,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:15Z",
+        "checkedAt": "2026-09-29T23:27:11Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -821,7 +838,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:16Z",
+        "checkedAt": "2026-09-29T23:27:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 30,
@@ -900,7 +917,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-26T12:44:18Z",
+        "checkedAt": "2026-09-29T23:27:13Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
