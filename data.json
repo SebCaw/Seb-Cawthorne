@@ -1,9 +1,21 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-01T15:07:16Z",
+    "lastUpdated": "2026-10-01T20:49:15Z",
     "version": 4,
-    "seenVacancyIds": [],
-    "newSinceLastScrape": []
+    "seenVacancyIds": [
+      "VAC2000055565",
+      "VAC2000055580",
+      "VAC2000055573",
+      "VAC2000055584",
+      "VAC2000055590"
+    ],
+    "newSinceLastScrape": [
+      "VAC2000055565",
+      "VAC2000055580",
+      "VAC2000055573",
+      "VAC2000055584",
+      "VAC2000055590"
+    ]
   },
   "interestListings": [],
   "companies": [
@@ -53,110 +65,93 @@
       ],
       "programs": [
         {
-          "id": "hsbc_rm_manchester",
-          "name": "Relationship Management - Commercial Banking",
-          "standard": "Level 6 - Financial services professional",
-          "location": "Manchester",
+          "id": "VAC2000055565",
+          "name": "Degree Apprenticeship - Commercial Banking - London- HSBC",
+          "standard": "Level 6",
+          "location": "London (E14 5HQ)",
           "salary": null,
-          "duration": "4.5 years",
+          "duration": "",
+          "status": "closing_soon",
+          "closingDate": "2026-10-11",
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055565",
+          "govVacancyId": "VAC2000055565",
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
           "customerFacing": "core",
           "nameConfidence": "official",
-          "sourceUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "status": "open",
-          "closingDate": "2026-11-01",
-          "applyUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-28",
-          "lastSeen": "2026-09-28"
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055565"
         },
         {
-          "id": "hsbc_rm_london",
-          "name": "Relationship Management - Commercial Banking",
-          "standard": "Level 6 - Financial services professional",
-          "location": "London",
+          "id": "VAC2000055580",
+          "name": "Degree Apprenticeship - Commercial Banking - Bristol - HSBC",
+          "standard": "Level 6",
+          "location": "Bristol (BS1 3BA)",
           "salary": null,
-          "duration": "4.5 years",
+          "duration": "",
+          "status": "open",
+          "closingDate": "2026-10-25",
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055580",
+          "govVacancyId": "VAC2000055580",
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
           "customerFacing": "core",
           "nameConfidence": "official",
-          "sourceUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "status": "open",
-          "closingDate": "2026-11-01",
-          "applyUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-28",
-          "lastSeen": "2026-09-28"
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055580"
         },
         {
-          "id": "hsbc_rm_birmingham",
-          "name": "Relationship Management - Commercial Banking",
-          "standard": "Level 6 - Financial services professional",
-          "location": "Birmingham",
+          "id": "VAC2000055573",
+          "name": "Degree Apprenticeship - Commercial Banking - Manchester- HSBC",
+          "standard": "Level 6",
+          "location": "Manchester (M2 7HD)",
           "salary": null,
-          "duration": "4.5 years",
+          "duration": "",
+          "status": "open",
+          "closingDate": "2026-10-25",
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055573",
+          "govVacancyId": "VAC2000055573",
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
           "customerFacing": "core",
           "nameConfidence": "official",
-          "sourceUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "status": "open",
-          "closingDate": "2026-11-01",
-          "applyUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-28",
-          "lastSeen": "2026-09-28"
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055573"
         },
         {
-          "id": "hsbc_rm_bristol",
-          "name": "Relationship Management - Commercial Banking",
-          "standard": "Level 6 - Financial services professional",
-          "location": "Bristol",
+          "id": "VAC2000055584",
+          "name": "Degree Apprenticeship - Retail Banking - Birmingham - HSBC",
+          "standard": "Level 6",
+          "location": "Birmingham (B1 1HQ)",
           "salary": null,
-          "duration": "4.5 years",
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
+          "duration": "",
           "status": "open",
-          "closingDate": "2026-11-01",
-          "applyUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-28",
-          "lastSeen": "2026-09-28"
+          "closingDate": "2026-10-25",
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055584",
+          "govVacancyId": "VAC2000055584",
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "customerFacing": "internal",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055584"
         },
         {
-          "id": "hsbc_retail_leeds",
-          "name": "Retail Banking - Rotational",
-          "standard": "Level 6 - Financial services professional",
-          "location": "Leeds",
+          "id": "VAC2000055590",
+          "name": "Degree Apprenticeship - Retail Banking - Leeds - HSBC",
+          "standard": "Level 6",
+          "location": "40 Wakefield Road, Leeds (LS98 1FD)",
           "salary": null,
-          "duration": "4.5 years",
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
+          "duration": "",
           "status": "open",
-          "closingDate": "2026-11-01",
-          "applyUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-28",
-          "lastSeen": "2026-09-28"
-        },
-        {
-          "id": "hsbc_retail_birmingham",
-          "name": "Retail Banking - Rotational",
-          "standard": "Level 6 - Financial services professional",
-          "location": "Birmingham",
-          "salary": null,
-          "duration": "4.5 years",
-          "customerFacing": "core",
+          "closingDate": "2026-10-25",
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055590",
+          "govVacancyId": "VAC2000055590",
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "customerFacing": "internal",
           "nameConfidence": "official",
-          "sourceUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "status": "open",
-          "closingDate": "2026-11-01",
-          "applyUrl": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
-          "govVacancyId": null,
-          "firstSeen": "2026-09-28",
-          "lastSeen": "2026-09-28"
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055590"
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:03Z",
+        "checkedAt": "2026-10-01T20:48:59Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 6,
@@ -345,7 +340,7 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:05Z",
+        "checkedAt": "2026-10-01T20:49:02Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 11,
@@ -353,7 +348,7 @@
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-10-01T15:07:05Z",
+        "checkedAt": "2026-10-01T20:49:04Z",
         "ok": true,
         "total": 18,
         "kept": 8,
@@ -431,7 +426,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:07Z",
+        "checkedAt": "2026-10-01T20:49:05Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -528,7 +523,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:07Z",
+        "checkedAt": "2026-10-01T20:49:05Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -590,7 +585,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:08Z",
+        "checkedAt": "2026-10-01T20:49:06Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -652,7 +647,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:08Z",
+        "checkedAt": "2026-10-01T20:49:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -714,7 +709,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:09Z",
+        "checkedAt": "2026-10-01T20:49:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -776,7 +771,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:10Z",
+        "checkedAt": "2026-10-01T20:49:08Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -838,7 +833,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:11Z",
+        "checkedAt": "2026-10-01T20:49:09Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 30,
@@ -917,7 +912,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T15:07:12Z",
+        "checkedAt": "2026-10-01T20:49:10Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
