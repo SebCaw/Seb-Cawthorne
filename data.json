@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-30T20:34:03Z",
+    "lastUpdated": "2026-10-01T15:07:16Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -156,10 +156,10 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:44Z",
+        "checkedAt": "2026-10-01T15:07:03Z",
         "reachable": true,
         "httpStatus": 200,
-        "mentions": 42,
+        "mentions": 6,
         "openSignal": false,
         "note": ""
       }
@@ -213,8 +213,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Belfast-Bedford-Street/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Belfast_JR-0000131878",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
@@ -230,8 +230,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_northampton",
@@ -247,8 +247,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_birmingham",
@@ -264,8 +264,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_london",
@@ -281,8 +281,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_leeds",
@@ -298,8 +298,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_northampton",
@@ -315,8 +315,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_london",
@@ -332,8 +332,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
           "govVacancyId": null,
-          "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30"
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01"
         }
       ],
       "ats": {
@@ -345,7 +345,7 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:47Z",
+        "checkedAt": "2026-10-01T15:07:05Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 11,
@@ -353,7 +353,7 @@
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-09-30T20:33:47Z",
+        "checkedAt": "2026-10-01T15:07:05Z",
         "ok": true,
         "total": 18,
         "kept": 8,
@@ -431,7 +431,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:50Z",
+        "checkedAt": "2026-10-01T15:07:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -528,7 +528,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:50Z",
+        "checkedAt": "2026-10-01T15:07:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -590,7 +590,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:51Z",
+        "checkedAt": "2026-10-01T15:07:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -652,7 +652,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:52Z",
+        "checkedAt": "2026-10-01T15:07:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -714,7 +714,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:53Z",
+        "checkedAt": "2026-10-01T15:07:09Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -776,7 +776,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:54Z",
+        "checkedAt": "2026-10-01T15:07:10Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -838,7 +838,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:56Z",
+        "checkedAt": "2026-10-01T15:07:11Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 30,
@@ -917,7 +917,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-30T20:33:57Z",
+        "checkedAt": "2026-10-01T15:07:12Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
