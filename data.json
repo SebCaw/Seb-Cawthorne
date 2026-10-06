@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-06T01:08:02Z",
+    "lastUpdated": "2026-10-06T14:45:45Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055565",
@@ -163,7 +163,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:47Z",
+        "checkedAt": "2026-10-06T14:45:30Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 6,
@@ -352,7 +352,7 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:49Z",
+        "checkedAt": "2026-10-06T14:45:31Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 11,
@@ -360,7 +360,7 @@
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-10-06T01:07:50Z",
+        "checkedAt": "2026-10-06T14:45:32Z",
         "ok": true,
         "total": 18,
         "kept": 8,
@@ -438,7 +438,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:51Z",
+        "checkedAt": "2026-10-06T14:45:33Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -535,7 +535,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:52Z",
+        "checkedAt": "2026-10-06T14:45:34Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -597,7 +597,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:52Z",
+        "checkedAt": "2026-10-06T14:45:35Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -659,7 +659,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:53Z",
+        "checkedAt": "2026-10-06T14:45:36Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -721,7 +721,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:54Z",
+        "checkedAt": "2026-10-06T14:45:36Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -783,7 +783,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:54Z",
+        "checkedAt": "2026-10-06T14:45:37Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -845,7 +845,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:55Z",
+        "checkedAt": "2026-10-06T14:45:38Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 30,
@@ -924,7 +924,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T01:07:57Z",
+        "checkedAt": "2026-10-06T14:45:39Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
