@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-06T20:48:17Z",
+    "lastUpdated": "2026-10-07T15:06:19Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055565",
@@ -70,8 +70,8 @@
           "closingDate": "2026-10-11",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055565",
           "govVacancyId": "VAC2000055565",
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06",
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
           "customerFacing": "core",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055565"
@@ -87,8 +87,8 @@
           "closingDate": "2026-10-25",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055548",
           "govVacancyId": "VAC2000055548",
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06",
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
           "customerFacing": "core",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055548"
@@ -104,8 +104,8 @@
           "closingDate": "2026-10-25",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055580",
           "govVacancyId": "VAC2000055580",
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06",
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
           "customerFacing": "core",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055580"
@@ -121,8 +121,8 @@
           "closingDate": "2026-10-25",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055573",
           "govVacancyId": "VAC2000055573",
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06",
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
           "customerFacing": "core",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055573"
@@ -138,8 +138,8 @@
           "closingDate": "2026-10-25",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055584",
           "govVacancyId": "VAC2000055584",
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06",
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055584"
@@ -155,15 +155,15 @@
           "closingDate": "2026-10-25",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055590",
           "govVacancyId": "VAC2000055590",
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06",
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055590"
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:03Z",
+        "checkedAt": "2026-10-07T15:06:04Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 6,
@@ -220,8 +220,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Belfast-Bedford-Street/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Belfast_JR-0000131878",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
@@ -237,8 +237,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_northampton",
@@ -254,8 +254,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_birmingham",
@@ -271,8 +271,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_london",
@@ -288,8 +288,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_leeds",
@@ -305,8 +305,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_northampton",
@@ -322,8 +322,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_london",
@@ -339,8 +339,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
           "govVacancyId": null,
-          "firstSeen": "2026-10-06",
-          "lastSeen": "2026-10-06"
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         }
       ],
       "ats": {
@@ -352,17 +352,17 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:04Z",
+        "checkedAt": "2026-10-07T15:06:05Z",
         "reachable": true,
         "httpStatus": 200,
-        "mentions": 11,
+        "mentions": 13,
         "openSignal": false,
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-10-06T20:48:05Z",
+        "checkedAt": "2026-10-07T15:06:06Z",
         "ok": true,
-        "total": 18,
+        "total": 19,
         "kept": 8,
         "error": ""
       }
@@ -438,7 +438,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:06Z",
+        "checkedAt": "2026-10-07T15:06:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -535,7 +535,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:07Z",
+        "checkedAt": "2026-10-07T15:06:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -597,7 +597,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:08Z",
+        "checkedAt": "2026-10-07T15:06:09Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -659,7 +659,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:09Z",
+        "checkedAt": "2026-10-07T15:06:09Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -721,7 +721,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:09Z",
+        "checkedAt": "2026-10-07T15:06:10Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -783,7 +783,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:10Z",
+        "checkedAt": "2026-10-07T15:06:11Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -845,7 +845,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:11Z",
+        "checkedAt": "2026-10-07T15:06:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 30,
@@ -924,7 +924,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T20:48:12Z",
+        "checkedAt": "2026-10-07T15:06:13Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
