@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-06T15:40:50Z",
+    "lastUpdated": "2026-11-06T21:16:44Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055565",
@@ -104,7 +104,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:20Z",
+        "checkedAt": "2026-11-06T21:16:27Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 2,
@@ -282,23 +282,6 @@
           "govVacancyId": null,
           "firstSeen": "2026-11-06",
           "lastSeen": "2026-11-06"
-        },
-        {
-          "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_london",
-          "name": "Global Transaction Banking Degree Apprenticeship Programme 2027 London",
-          "standard": "Level 6",
-          "location": "Canary Wharf, 1 Churchill Place",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
-          "govVacancyId": null,
-          "firstSeen": "2026-11-06",
-          "lastSeen": "2026-11-06"
         }
       ],
       "ats": {
@@ -310,18 +293,18 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:21Z",
+        "checkedAt": "2026-11-06T21:16:29Z",
         "reachable": true,
         "httpStatus": 200,
-        "mentions": 11,
+        "mentions": 17,
         "openSignal": false,
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-11-06T15:40:21Z",
+        "checkedAt": "2026-11-06T21:16:29Z",
         "ok": true,
-        "total": 18,
-        "kept": 9,
+        "total": 21,
+        "kept": 8,
         "error": ""
       }
     },
@@ -396,7 +379,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:22Z",
+        "checkedAt": "2026-11-06T21:16:30Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -493,7 +476,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:22Z",
+        "checkedAt": "2026-11-06T21:16:31Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -555,7 +538,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:23Z",
+        "checkedAt": "2026-11-06T21:16:32Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -617,7 +600,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:23Z",
+        "checkedAt": "2026-11-06T21:16:33Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -679,7 +662,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:24Z",
+        "checkedAt": "2026-11-06T21:16:34Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -741,7 +724,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:25Z",
+        "checkedAt": "2026-11-06T21:16:35Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -939,7 +922,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:26Z",
+        "checkedAt": "2026-11-06T21:16:35Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 71,
@@ -1018,7 +1001,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-06T15:40:44Z",
+        "checkedAt": "2026-11-06T21:16:38Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
