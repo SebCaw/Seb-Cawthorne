@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-13T21:48:46Z",
+    "lastUpdated": "2026-11-14T14:46:29Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055565",
@@ -104,7 +104,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:30Z",
+        "checkedAt": "2026-11-14T14:46:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 2,
@@ -161,8 +161,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-London_JR-0000129411",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_northampton",
@@ -178,8 +178,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Northampton_JR-0000129419",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_2027_business_banking_degree_apprenticeship_programme_manchester",
@@ -195,8 +195,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/XMLNAME-2027-Business-Banking-Degree-Apprenticeship-Programme-Manchester_JR-0000129406",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_belfast",
@@ -212,8 +212,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Belfast-Bedford-Street/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Belfast_JR-0000131878",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_birmingham",
@@ -229,8 +229,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Birmingham-One-Snow-Hill/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Birmingham_JR-0000124391",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_london",
@@ -246,8 +246,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_leeds",
@@ -263,8 +263,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Leeds-Park-Row/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-Leeds_JR-0000125017",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_northampton",
@@ -280,8 +280,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-Northampton_JR-0000124677",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         },
         {
           "id": "barclays_wd_global_transaction_banking_degree_apprenticeship_programme_2027_london",
@@ -297,8 +297,8 @@
           "closingDate": null,
           "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124291",
           "govVacancyId": null,
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13"
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14"
         }
       ],
       "ats": {
@@ -310,7 +310,7 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:32Z",
+        "checkedAt": "2026-11-14T14:46:14Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 11,
@@ -318,7 +318,7 @@
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-11-13T21:48:32Z",
+        "checkedAt": "2026-11-14T14:46:15Z",
         "ok": true,
         "total": 20,
         "kept": 9,
@@ -396,7 +396,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:33Z",
+        "checkedAt": "2026-11-14T14:46:16Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -493,7 +493,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:34Z",
+        "checkedAt": "2026-11-14T14:46:17Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -555,7 +555,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:35Z",
+        "checkedAt": "2026-11-14T14:46:18Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -617,7 +617,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:36Z",
+        "checkedAt": "2026-11-14T14:46:19Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -679,7 +679,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:37Z",
+        "checkedAt": "2026-11-14T14:46:19Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -741,7 +741,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:38Z",
+        "checkedAt": "2026-11-14T14:46:21Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -795,8 +795,8 @@
           "closingDate": "2026-12-01",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062654",
           "govVacancyId": "VAC2000062654",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062654"
@@ -812,8 +812,8 @@
           "closingDate": "2026-12-01",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062635",
           "govVacancyId": "VAC2000062635",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062635"
@@ -829,8 +829,8 @@
           "closingDate": "2026-12-01",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062682",
           "govVacancyId": "VAC2000062682",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062682"
@@ -846,11 +846,45 @@
           "closingDate": "2026-12-01",
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062683",
           "govVacancyId": "VAC2000062683",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062683"
+        },
+        {
+          "id": "VAC2000062674",
+          "name": "Consumer Financial Services Professional Apprentice - Leeds",
+          "standard": "Level 6",
+          "location": "Leeds (LS1 4AP)",
+          "salary": null,
+          "duration": "",
+          "status": "open",
+          "closingDate": "2026-12-15",
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062674",
+          "govVacancyId": "VAC2000062674",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
+          "customerFacing": "internal",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062674"
+        },
+        {
+          "id": "VAC2000062769",
+          "name": "Job Posting Title Digital &amp; Technology Solutions Degree Apprenticeship - Manchester",
+          "standard": "Level 6",
+          "location": "Manchester (M1 3HU)",
+          "salary": null,
+          "duration": "",
+          "status": "open",
+          "closingDate": "2026-12-15",
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769",
+          "govVacancyId": "VAC2000062769",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
+          "customerFacing": "internal",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769"
         },
         {
           "id": "VAC2000062691",
@@ -863,8 +897,8 @@
           "closingDate": null,
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062691",
           "govVacancyId": "VAC2000062691",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062691"
@@ -880,28 +914,11 @@
           "closingDate": null,
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062685",
           "govVacancyId": "VAC2000062685",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062685"
-        },
-        {
-          "id": "VAC2000062674",
-          "name": "Consumer Financial Services Professional Apprentice - Leeds",
-          "standard": "Level 6",
-          "location": "Leeds (LS1 4AP)",
-          "salary": null,
-          "duration": "",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062674",
-          "govVacancyId": "VAC2000062674",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
-          "customerFacing": "internal",
-          "nameConfidence": "official",
-          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062674"
         },
         {
           "id": "VAC2000062758",
@@ -914,32 +931,15 @@
           "closingDate": null,
           "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062758",
           "govVacancyId": "VAC2000062758",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
           "customerFacing": "internal",
           "nameConfidence": "official",
           "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062758"
-        },
-        {
-          "id": "VAC2000062769",
-          "name": "Job Posting Title Digital &amp; Technology Solutions Degree Apprenticeship - Manchester",
-          "standard": "Level 6",
-          "location": "Manchester (M1 3HU)",
-          "salary": null,
-          "duration": "",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769",
-          "govVacancyId": "VAC2000062769",
-          "firstSeen": "2026-11-13",
-          "lastSeen": "2026-11-13",
-          "customerFacing": "internal",
-          "nameConfidence": "official",
-          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769"
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:38Z",
+        "checkedAt": "2026-11-14T14:46:21Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 71,
@@ -1018,7 +1018,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-13T21:48:40Z",
+        "checkedAt": "2026-11-14T14:46:23Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
