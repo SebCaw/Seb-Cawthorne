@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-25T03:22:53Z",
+    "lastUpdated": "2026-11-25T18:26:41Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055565",
@@ -104,7 +104,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:34Z",
+        "checkedAt": "2026-11-25T18:26:19Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 2,
@@ -216,23 +216,6 @@
           "lastSeen": "2026-11-25"
         },
         {
-          "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_london",
-          "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 London",
-          "standard": "Level 6",
-          "location": "Canary Wharf, 1 Churchill Place",
-          "salary": null,
-          "duration": null,
-          "customerFacing": "core",
-          "nameConfidence": "official",
-          "sourceUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
-          "status": "open",
-          "closingDate": null,
-          "applyUrl": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/UK-Corporate-Banking-Degree-Apprenticeship-Programme-2027-London_JR-0000124379",
-          "govVacancyId": null,
-          "firstSeen": "2026-11-25",
-          "lastSeen": "2026-11-25"
-        },
-        {
           "id": "barclays_wd_uk_corporate_banking_degree_apprenticeship_programme_2027_leeds",
           "name": "UK Corporate Banking Degree Apprenticeship Programme 2027 Leeds",
           "standard": "Level 6",
@@ -276,7 +259,7 @@
         "exclude": "(?i)technology|developer|software|engineer|cyber|operations analyst|data scien"
       },
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:36Z",
+        "checkedAt": "2026-11-25T18:26:21Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 11,
@@ -284,10 +267,10 @@
         "note": ""
       },
       "atsCheck": {
-        "checkedAt": "2026-11-25T03:22:36Z",
+        "checkedAt": "2026-11-25T18:26:21Z",
         "ok": true,
-        "total": 19,
-        "kept": 7,
+        "total": 18,
+        "kept": 6,
         "error": ""
       }
     },
@@ -362,7 +345,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:38Z",
+        "checkedAt": "2026-11-25T18:26:23Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 4,
@@ -459,7 +442,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:38Z",
+        "checkedAt": "2026-11-25T18:26:24Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 3,
@@ -521,7 +504,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:39Z",
+        "checkedAt": "2026-11-25T18:26:25Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 1,
@@ -583,7 +566,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:40Z",
+        "checkedAt": "2026-11-25T18:26:25Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 10,
@@ -645,7 +628,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:42Z",
+        "checkedAt": "2026-11-25T18:26:26Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -707,7 +690,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:43Z",
+        "checkedAt": "2026-11-25T18:26:27Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -905,7 +888,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:44Z",
+        "checkedAt": "2026-11-25T18:26:28Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 71,
@@ -984,7 +967,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-25T03:22:46Z",
+        "checkedAt": "2026-11-25T18:26:34Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
